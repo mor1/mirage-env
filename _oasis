@@ -1,0 +1,14 @@
+OASISFormat: 0.4
+Name:        mirage-env
+Version:     0.1.0
+Synopsis:    Environment variables for configuring Mirage unikernels
+Authors:     Richard Mortier, Thomas Gazagnaire
+License:     ISC
+Plugins:     META (0.4), DevFiles (0.4)
+BuildTools:  ocamlbuild
+
+Library "mirage-env"
+  Path:         lib
+  Findlibname:  mirage-env
+  Modules:      Mirage_env
+  BuildDepends: mirage
