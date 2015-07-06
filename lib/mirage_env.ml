@@ -49,7 +49,7 @@ let split c s =
 let ips_of_env x = split ':' x |> List.map Ipaddr.V4.of_string_exn
 let bool_of_env = function "1" | "true" | "yes" -> true | _ -> false
 let net_of_env = function "socket" -> `Socket | _ -> `Direct
-let fs_of_env = function "fat" -> `Fat | _ -> `Crunch
+let fs_of_env = function "fat" -> `Fat | "direct" -> `Direct | _ -> `Crunch
 let opt_string_of_env x = Some x
 let string_of_env x = x
 
