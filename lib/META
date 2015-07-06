@@ -1,0 +1,12 @@
+# OASIS_START
+# DO NOT EDIT (digest: fa9a84521f0d90fd550207669b519670)
+version = "0.1.0"
+description = "Environment variables for configuring Mirage unikernels"
+requires = "mirage"
+archive(byte) = "mirage-env.cma"
+archive(byte, plugin) = "mirage-env.cma"
+archive(native) = "mirage-env.cmxa"
+archive(native, plugin) = "mirage-env.cmxs"
+exists_if = "mirage-env.cma"
+# OASIS_STOP
+
