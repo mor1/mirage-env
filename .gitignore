@@ -1,0 +1,23 @@
+# Standard OCaml droppings
+*.annot
+*.cmo
+*.cma
+*.cmi
+*.a
+*.o
+*.cmx
+*.cmxs
+*.cmxa
+
+_build/
+
+*.byte
+*.native
+*.docdir
+
+# Oasis droppings
+setup.data
+setup.log
+
+_tags
+/log

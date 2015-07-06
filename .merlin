@@ -1,0 +1,4 @@
+PKG mirage
+
+S lib/ lib_test/
+B _build/**
